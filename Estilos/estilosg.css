@@ -1,0 +1,48 @@
+
+
+#contenedor{
+	width: 1340px;
+	height: 1800px;
+	background-image: url("Fondo/6.jpg");
+}
+
+#galeriat{
+	font-size: 50px;
+	font-family: sans-serif;
+	color: black;
+}
+#galeria{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+
+}
+
+#home{
+
+	width:1340px;
+	height: 50px;
+	background-color: white;
+
+
+}
+
+#homei{
+	width: 50px;
+	height: 50px;
+}
+
+.tamaño{
+	width: 300px;
+	height: 200px;
+}
+
+.caja{
+	width: 300px;
+	height: 200px;
+	background-color: darkred;
+	margin-left: 30px;
+	margin-top: 50px;
+	float: left;
+
+}
