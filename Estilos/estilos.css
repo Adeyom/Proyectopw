@@ -1,4 +1,6 @@
 
+/*En la div contenedor agregue la imagen de fondo de 
+mi pagina principal*/
 div#contenedor{
 	
 	width: 1340px;
@@ -6,6 +8,8 @@ div#contenedor{
 	background-image: url("Fondo/7.jpg");
 }
 
+/*Este es el contenedor de la imagen logo
+ al que di las carecteristicas deseadas*/
 div#logo{
 	width:1340px ;
 	height: 100px;
@@ -21,7 +25,9 @@ img#logo{
 	margin-top: 10px;
 }
 
-
+/*Es la parte del navegador o menu, en donde le di orden
+a las palabras clave que serian mi menu, asi como el 
+fondo de color*/
 div#navegador{
 	background-color:   #fdfefe ;
 	width: 1340px;
@@ -30,6 +36,7 @@ div#navegador{
 	display: flex;
 }
 
+/*Ajuste las palabras del menu y les di formato*/
 div.menu{
 	font-size: 40px;
 	float: left;
@@ -40,13 +47,15 @@ div.menu{
 
 }
 
+/*Utilice la metaclase hover para resaltar el texto cuando pasemos 
+el mouse por alguna palabra del menu*/
 div.menu:hover{
 	background-color:grey ;
 	
 
 }
 
-
+/*Quite el subrayado de las palabras del menu y les di otro color*/
 a{
 	text-decoration: none;
 	color: black;
@@ -54,21 +63,23 @@ a{
 
 
 
-
+/*Ajuste el texto de mi contenedor descripcion y lo acomode 
+cargado hacia el lado derecho de mi pantalla*/
 div#descripcion{
-	background-color:#1c2833 ;
+	background-color:#0A0A2A ;
 	width: 300px;
 	height: 400px;
 	float: right;
 	margin-right: 70px;
 	margin-top: 50px;
 	font-size: 25px;
-	color:  white ;
+	color:  #00FF00 ;
 	
 
 	
 }
 
+/*Le di formato a las fotos*/
 div#fot{
 	width: 640px;
 	height: 480px;
@@ -78,19 +89,16 @@ div#fot{
 
 }
 
+/*El tamaño de las imagenes */
 img#foto{
 	width: 640px;
 	height: 480px;
 }
 
-div#pie{
-	background-color: green;
-	margin-top: 50px;
-	margin-left: 100px;
-}
 
+/*Atributos del contenedor comida*/
 div#comida{
-	background-color: yellow;
+	background-color: #0A0A2A;
 	width:1000px ;
 	height:2300px;
 	margin-left: 150px;
@@ -101,13 +109,17 @@ div#comida{
 
 }
 
+/*Modifique los atributos de el titulo "Comida"*/
 h3#titulo3{
 	font-size: 30px;
 	font-family: sans-serif;
 	display: flex;
 	justify-content: center;
+	color:#00FF00 ;
 }
 
+/*Realize una clase fotosc, para que todas las 
+imagenes tuvieran el mismo formato*/
 div.fotosc{
 	float: left;
 	width: 392px;
@@ -116,19 +128,22 @@ div.fotosc{
 	margin: 50px;
 }
 
+/*En esta clase le di tamaño a las imagenes*/
 img.tamaño{
 	width: 392px;
 	height: 354px;
 }
 
+/*Formato del contenedor postres*/
 div#postres{
-	background-color: darkred;
+	background-color: #0A0A2A;
 	width:1000px ;
 	height:940px;
 	margin-top: 2350px;
 
 
 }
+
 
 div#prueba1{
 	background-color: white;
@@ -137,31 +152,37 @@ div#prueba1{
 
 }
 
+/*Atributos del h3 "postres"*/
 h3#postrest{
 	font-size: 30px;
 	font-family: sans-serif;
 	display: flex;
 	justify-content: center;
+	color: #00FF00;
 }
 
-
+/*Atributos del contenedor "bebidas"*/
 div#bebidas{
-	background-color: darkred;
+	background-color: #0A0A2A;
 	width:1000px ;
 	height:1400px;
 	margin-top: 80px;
+	color: #00FF00;
 }
 
+/*Atributos del titulo h3 "contacto"*/
 h3#contactot{
 	font-size: 30px;
 	font-family: sans-serif;
 	display: flex;
 	justify-content: center;
+	color:#00FF00 ;
 }
 
 
+/*Atributos de contenedor contacto*/
 div#contacto{
-	background-color: darkred;
+	background-color: #0A0A2A;
 	width:1000px ;
 	height:100px;
 	margin-top: 80px;
