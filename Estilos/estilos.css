@@ -1,0 +1,165 @@
+
+div#contenedor{
+	
+	width: 1340px;
+	height: 5770px;
+	background-image: url("Fondo/7.jpg");
+}
+
+div#logo{
+	width:1340px ;
+	height: 100px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img#logo{
+	width: 270px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+
+div#navegador{
+	background-color:   #fdfefe ;
+	width: 1340px;
+	height: 50px;
+	margin: auto;
+	display: flex;
+}
+
+div.menu{
+	font-size: 40px;
+	float: left;
+	background-color:  #fdfefe;
+	margin-right: 40px;
+	margin-left: 20px;
+	
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+div#descripcion{
+	background-color:#1c2833 ;
+	width: 300px;
+	height: 400px;
+	float: right;
+	margin-right: 70px;
+	margin-top: 50px;
+	font-size: 25px;
+	color:  white ;
+	
+
+	
+}
+
+div#fot{
+	width: 640px;
+	height: 480px;
+	background-color: green;
+	margin-top: 50px;
+	margin-left: 100px;
+
+}
+
+img#foto{
+	width: 640px;
+	height: 480px;
+}
+
+div#pie{
+	background-color: green;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+div#comida{
+	background-color: yellow;
+	width:1000px ;
+	height:2300px;
+	margin-left: 150px;
+	margin-top: 100px;
+
+
+
+
+}
+
+h3#titulo3{
+	font-size: 30px;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+div.fotosc{
+	float: left;
+	width: 392px;
+	height: 354px;
+	background-color: red;
+	margin: 50px;
+}
+
+img.tamaño{
+	width: 392px;
+	height: 354px;
+}
+
+div#postres{
+	background-color: darkred;
+	width:1000px ;
+	height:940px;
+	margin-top: 2350px;
+
+
+}
+
+div#prueba1{
+	background-color: white;
+	width: 640px;
+	height: 480px;
+
+}
+
+h3#postrest{
+	font-size: 30px;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+
+div#bebidas{
+	background-color: darkred;
+	width:1000px ;
+	height:1400px;
+	margin-top: 80px;
+}
+
+h3#contactot{
+	font-size: 30px;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+
+div#contacto{
+	background-color: darkred;
+	width:1000px ;
+	height:100px;
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
