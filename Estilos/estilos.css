@@ -40,6 +40,13 @@ div.menu{
 
 }
 
+div.menu:hover{
+	background-color:grey ;
+	
+
+}
+
+
 a{
 	text-decoration: none;
 	color: black;
